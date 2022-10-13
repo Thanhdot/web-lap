@@ -1,0 +1,10 @@
+h2{
+    color: blue;
+}
+.content {
+    background: none repeat scroll 0 0 #fdfdfd;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+}
