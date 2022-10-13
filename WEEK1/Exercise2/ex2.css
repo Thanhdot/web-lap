@@ -1,0 +1,17 @@
+.intro {
+    color: blue;
+    height: 380px;
+    width: 350px;
+}
+
+.checked {
+    color: orange;
+}
+.study .li {
+    text-align: left;
+}
+
+.learn {
+
+    text-align: left;
+}
