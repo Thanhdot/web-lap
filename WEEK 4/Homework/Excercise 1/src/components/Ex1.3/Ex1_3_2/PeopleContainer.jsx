@@ -1,5 +1,5 @@
 import Media from 'react-media'
-import {Redirect, Route, Switch} from 'react-router-dom'
+import { Redirect, Route, Switch} from 'react-router-dom'
 import Person from './Person'
 import PeopleList from './PeopleList'
 import people from './people'
@@ -25,6 +25,7 @@ const PeopleContainer = () => {
                     <Route path="/people/:id">
                         <Person/>
                     </Route>
+                    <Redirect to={`/people/${people[0].id}`}/>
                 </Switch>
             </div>
         )}

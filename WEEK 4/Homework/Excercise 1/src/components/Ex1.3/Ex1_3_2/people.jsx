@@ -1,8 +1,5 @@
-import React from 'react'
 
-export default function people() {
-  return (
-      [
+const people= [
         {
             "id": "58826508",
             "name": "Kip Russel",
@@ -28,5 +25,5 @@ export default function people() {
             "department": "Games"
         },
       ]
-  )
-}
+export default people;
+
